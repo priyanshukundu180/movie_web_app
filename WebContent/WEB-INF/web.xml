@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>JAVA_Training</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+ <servlet>
+    <servlet-name>data load test new</servlet-name>
+    <servlet-class>dataloadtestnew</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>data load test new</servlet-name>
+    <url-pattern>/loads</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+   <servlet>
+    <servlet-name>langdropdownServlet</servlet-name>
+    <servlet-class>langdropdownServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>langdropdownServlet</servlet-name>
+    <url-pattern>/language</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>addrowServlet</servlet-name>
+    <servlet-class>addrowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addrowServlet</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>editrowServlet</servlet-name>
+    <servlet-class>editrowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>editrowServlet</servlet-name>
+    <url-pattern>/edit</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>deleterowServlet</servlet-name>
+    <servlet-class>deleterowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleterowServlet</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ratingdropdownServlet</servlet-name>
+    <servlet-class>ratingdropdownServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ratingdropdownServlet</servlet-name>
+    <url-pattern>/rating</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>specialfeaturesDropdown</servlet-name>
+    <servlet-class>specialfeaturesDropdown</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>specialfeaturesDropdown</servlet-name>
+    <url-pattern>/specialfeaturesDropdown</url-pattern>
+  </servlet-mapping>
+  
+
+  
+  
+</web-app>
